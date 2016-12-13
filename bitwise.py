@@ -1,5 +1,7 @@
 #print("Hello World!")
-       
+
+# script to play with bitwise operators and in-place data swapping
+
 a = raw_input('Enter a Number: ')
 b = raw_input('Now Enter another Number: ')
 
