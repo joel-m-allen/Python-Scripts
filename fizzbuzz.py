@@ -1,8 +1,39 @@
+#fizzbuzz()
+#----------------------------------------------
+
+#You should write a function that will receive a positive integer and return:
+#"Fizz Buzz" if the number is divisible by 3 and by 5;
+#"Fizz" if the number is divisible by 3;
+#"Buzz" if the number is divisible by 5; 
+#The number as a string for other cases.
+
+#Input: A number as an integer.
+
+#Output: The answer as a string.
+
+#Example:
+
+#	fizzbuzz(3) == "Fizz"
+#	fizzbuzz(4) == "4"
+#	fizzbuzz(5) == "Buzz"
+#	fizzbuzz(15) == "Fizz Buzz"
+
+#Precondition: 0 < num ≤ 1000
+
+#Your Task:
+
+#1. Replace body of fizzbuzz() with something that works.
+
+#def fizzbuzz(num):
+#    return ""
+
+#2. Write some test code to prove your solution works.
 
 #import module for unit testing:
-import unittest
+#import unittest
 
 # function print responses based on number input:
+
 def fizzbuzz(num):
     response = ""
     if not (0<num <=1000):
