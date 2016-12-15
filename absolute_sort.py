@@ -1,4 +1,39 @@
 
+#----------------------------------------------
+#absolute_sort()
+#----------------------------------------------
+
+#A tuple as input, with numbers.
+#Sort it by absolute value in ascending order. 
+
+#For example, the tuple (-20, -5, 10, 15) will be sorted to: (-5, 10, 15, -20). 
+#Your function should return the sorted list or tuple.
+
+#Example:
+
+#	absolute_sort((-20, -5, 10, 15)) == [-5, 10, 15, -20]
+#		or
+#	absolute_sort((-20, -5, 10, 15)) == (-5, 10, 15, -20)
+
+#	absolute_sort((1,2,3,0)) == [0,1,2,3]
+#		or 
+#	absolute_sort((1,2,3,0)) == (0,1,2,3)
+
+#Precondition:
+#- Input tuple contains only unique integers.
+#- If x in input tuple, -x is not in input.
+
+#Your task:
+
+#1. Replace body of absolute_sort() with something that works.
+
+#def absolute_sort(t):
+ #   return []
+
+#2. Write some test code to prove your solution works.
+
+
+
 #import module for unit testing:
 import unittest
 
